@@ -33,7 +33,7 @@ void Die::roll()
 	const int MIN_VALUE = 1;   // Minimum die value
 
 	// Get a random value for the die.
-	value = (rand() % (sides - MIN_VALUE + 1)) + MIN_VALUE;
+	value = (rand() % (sides- MIN_VALUE + 1 )) + MIN_VALUE;
 }
 
 //*******************************************************
